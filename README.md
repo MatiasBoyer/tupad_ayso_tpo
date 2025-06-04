@@ -11,9 +11,9 @@ Mauricio Gabriel Pasti
 
 
 ## Repositorio
-#### Archivo 'InformeTecnico.md'
+#### Archivo '[InformeTecnico.md](./InformeTecnico.md)'
 Es el documento con la información del proyecto, explicación de Virtualización, paso a paso y conclusiones.
-#### Carpeta 'imagenes'
+#### Carpeta '[imagenes](./imagenes/)'
 Todas las imagenes que se visualizan en 'InformeTecnico.md', están alojadas aquí.
-#### Archivo 'promedios.py'
+#### Archivo '[promedios.py](./promedios.py)'
 Es el archivo que se creó en la distribución de Linux.
