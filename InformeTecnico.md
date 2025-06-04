@@ -1,6 +1,23 @@
 # Informe Técnico
 
-## Caso Práctico
+## <a name = "indice"></a>Índice
+
+[Introducción](#introduccion)
+[Marco Teórico](#marcoteorico)
+[Caso Práctico](#casopractico)
+[Metodología Utilizada](#metodologia_utilizada)
+[Resultados Obtenidos](#resultados_obtenidos)
+[Conclusiones](#conclusiones)
+
+## <a name = "introduccion"></a>Introducción
+La virtualización hoy en día, es una tecnología clave en la informática moderna, ya que nos permite ejecutar múltiples sistemas operativos sobre una única computadora, optimizando recursos y facilitando la posibilidad de tener distintos entornos de prueba, desarrollo y producción.
+Este tema es de suma importancia para la carrera, porque hoy en día la gran mayoría de desarrollos y puestas en producción se realiza utilizando máquinas virtuales, Docker, VPS, etc. 
+El objetivo principal de este trabajo es aplicar todos los conocimientos adquiridos durante la materia, mediante la creación de un entorno virtual. Se busca demostrar la capacidad de poder configurar un SO dentro de VirtualBox, entender la relación entre esta VM y la máquina HOST, y poder configurarlo correctamente.
+
+## <a name = "marcoteorico"></a>Marco Teórico
+> pendiente
+
+## <a name = "casopractico"></a>Caso Práctico
 Ingresamos al [sitio web](<https://www.virtualbox.org/wiki/Downloads>) y presionamos ‘Windows hosts’
 <br>
 ![](./imagenes/firefox_eVA2T2NJfV.png)
@@ -147,3 +164,19 @@ Y ejecutamos el mismo utilizando *python3 ./promedios.py*
 <br>
 ![](./imagenes/VirtualBoxVM_mflhhcAYs2.png)
 <br>
+
+## <a name = "metodologia_utilizada"></a>Metodología Utilizada
+Nos dividimos la investigación teórica, y el caso práctico por separado. Nos pusimos de acuerdo en que lo mostrado estaba OK guardando la información en un documento de google, y procedimos a la creación del repositorio.
+
+## <a name = "resultados_obtenidos"></a>Resultados Obtenidos
+- Obtuvimos VirtualBox
+- Obtuvimos una máquina virtual configurada, y lista para su uso
+- Descargamos e instalamos python
+- Aprendimos que python no es lo mismo que python3 dentro de Linux
+
+## <a name = "conclusiones"></a>Conclusiones
+- Aprendimos a configurar una máquina virtual utilizando VirtualBox
+- Aprendimos sobre hardware y especificaciones mínimas, dandole los recursos apropiados a la máquina virtual para ejecutarse correctamente
+- Nos familiarizamos con Linux y su terminal, utilizando comandos como ls, nano y chmod para poder crear un nuevo script en Python directo desde ella
+- Hicimos uso de ‘apt’, uno de los gestores de paquete más utilizados
+- Creamos un script en Python dentro de la máquina virtual, aprendiendo sobre entornos aislados
