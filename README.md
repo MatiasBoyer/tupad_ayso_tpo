@@ -17,3 +17,5 @@ Es el documento con la información del proyecto, explicación de Virtualizació
 Todas las imagenes que se visualizan en 'InformeTecnico.md', están alojadas aquí.
 #### Archivo '[promedios.py](./promedios.py)'
 Es el archivo que se creó en la distribución de Linux.
+#### Archivo '[Virtualización.pdf](./Virtualización.pdf)'
+Es el archivo formal del trabajo.
