@@ -1,13 +1,12 @@
 # Informe Técnico
 
 ## <a name = "indice"></a>Índice
-
-[Introducción](#introduccion)
-[Marco Teórico](#marcoteorico)
-[Caso Práctico](#casopractico)
-[Metodología Utilizada](#metodologia_utilizada)
-[Resultados Obtenidos](#resultados_obtenidos)
-[Conclusiones](#conclusiones)
+- [Introducción](#introduccion)
+- [Marco Teórico](#marcoteorico)
+- [Caso Práctico](#casopractico)
+- [Metodología Utilizada](#metodologia_utilizada)
+- [Resultados Obtenidos](#resultados_obtenidos)
+- [Conclusiones](#conclusiones)
 
 ## <a name = "introduccion"></a>Introducción
 La virtualización hoy en día, es una tecnología clave en la informática moderna, ya que nos permite ejecutar múltiples sistemas operativos sobre una única computadora, optimizando recursos y facilitando la posibilidad de tener distintos entornos de prueba, desarrollo y producción.
