@@ -12,6 +12,9 @@
         - [Máquina virtual](#máquina-virtual)
       - [Hipervisores](#hipervisores)
       - [Tipos de Hipervisores](#tipos-de-hipervisores)
+      - [¿Cuál elegir?](#cuál-elegir)
+      - [Virtualización y seguridad](#virtualización-y-seguridad)
+      - [Soluciones de virtualización](#soluciones-de-virtualización)
   - [Caso Práctico](#caso-práctico)
   - [Metodología Utilizada](#metodología-utilizada)
   - [Resultados Obtenidos](#resultados-obtenidos)
@@ -126,7 +129,46 @@ Desventajas:
 </li>
 </ul>
 
+#### ¿Cuál elegir?
+![](./imagenes/img2.png)
+<br>
+Depende la necesidad:
+- Hipervisor tipo 1: Mayor rendimiento y seguridad.
+- Hipervisor tipo 2: Entornos de prueba y desarrollos.
 
+#### Virtualización y seguridad
+La virtualización  es una herramienta poderosa para mejorar la seguridad, pero también introduce nuevos riesgos que deben gestionarse correctamente.
+
+<ul>
+Ventajas de la virtualización en términos de seguridad:
+<ul>
+<li>Aislamiento entre VMs: Cada VM funciona como un sistema independiente. Si una es atacada, las demás no se ven afectadas (si el hipervisor es seguro).</li>
+<li>Entornos seguros de prueba: Permite ejecutar software desconocido o potencialmente malicioso en entornos controlados sin afectar al sistema principal.</li>
+<li>Separación de servicios: En vez de correr todo en un solo sistema, se pueden dividir funciones (web, DNS, base de datos) en diferentes VMs para contener ataques.</li>
+<li>Portabilidad y backup seguros: Las VMs se pueden mover, copiar y respaldar fácilmente como archivos, ideal para planes de recuperación ante desastres.</li>
+</ul>
+
+<br>
+Desventajas en términos de seguridad (riesgos):
+<ul>
+<li>Ataques al hipervisor (hypervisor escape): Un atacante que logra salir de una VM y acceder al hipervisor podría controlar todas las VMs del host. Este es uno de los peores escenarios.</li>
+<li>Superficie de ataque más compleja: A mayor cantidad de VMs, más sistemas, más parches, más puertas potenciales de entrada.</li>
+<li>Errores de configuración: Si no se aíslan bien las redes virtuales o se comparten recursos mal configurados, se pueden filtrar datos entre VMs.</li>
+</ul>
+</ul>
+
+>“La virtualización mejora la seguridad a través del aislamiento y la flexibilidad, pero depende fuertemente de la correcta configuración, actualización y administración del entorno virtual. El hipervisor es un componente crítico: si es comprometido, todo el entorno está en riesgo”.
+
+#### Soluciones de virtualización
+Las soluciones de virtualización son plataformas, programas o infraestructuras diseñadas para implementar, gestionar y ejecutar entornos virtuales: máquinas virtuales, redes virtuales, escritorios virtuales, servidores virtuales, etc.<br>
+En este apartado vamos a analizar dos de las más utilizadas en el mercado, VMware y Oracle VirtualBox<br>
+<ul>
+VMware<br>
+Líder en virtualización de servidores, escritorios, redes y almacenamiento, VMware es reconocido por su fiabilidad y sus herramientas repletas de funciones. Su hipervisor ESXi, en particular, ha sido ampliamente adoptado en entornos de uso empresarial. Tiene una versión gratuita (ESXi Free) pero es limitada.
+<br><br>
+Oracle VirtualBox<br>
+Oracle VirtualBox es una plataforma de virtualización de escritorio de código abierto, una opción popular para personas y pequeñas empresas que buscan ejecutar múltiples sistemas operativos en una sola máquina. A continuación se va a explicar el caso práctico de cómo instalar una máquina virtual con esta plataforma
+</ul>
 
 ## <a name = "casopractico"></a>Caso Práctico
 Ingresamos al [sitio web](<https://www.virtualbox.org/wiki/Downloads>) y presionamos ‘Windows hosts’
